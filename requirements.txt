@@ -24,3 +24,6 @@ sympy
 tqdm
 typing-extensions; python_version < "3.11"
 validators
+fastapi
+graphene
+uvicorn
