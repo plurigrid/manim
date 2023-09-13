@@ -29,3 +29,8 @@ Among them, the ``manim_example_ext`` extension for Sphinx refers to
 `the documentation of ManimCommunity <https://docs.manim.community/>`_.
 
 If you want to contribute to manim or this document, please see: :doc:`contributing`
+
+About the API
+-------------
+
+The Manim project now includes a FastAPI application that provides a GraphQL API. You can interact with the API to create and manipulate animations programmatically.
