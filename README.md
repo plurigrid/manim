@@ -108,6 +108,17 @@ Documentation is in progress at [3b1b.github.io/manim](https://3b1b.github.io/ma
 
 [manim-kindergarten](https://github.com/manim-kindergarten/) wrote and collected some useful extra classes and some codes of videos in [manim_sandbox repo](https://github.com/manim-kindergarten/manim_sandbox).
 
+## Running the FastAPI application
+
+You can start the FastAPI application by running the following command:
+
+```sh
+uvicorn src.api.main:app --reload
+```
+
+## About the Coding Assistant
+
+This project is assisted by a brilliant coding assistant that helps with various coding tasks, including updating this README file.
 
 ## Contributing
 Is always welcome.  As mentioned above, the [community edition](https://github.com/ManimCommunity/manim) has the most active ecosystem for contributions, with testing and continuous integration, but pull requests are welcome here too.  Please explain the motivation for a given change and examples of its effect.

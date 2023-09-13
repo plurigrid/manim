@@ -1,0 +1,19 @@
+openapi: 3.0.0
+info:
+  title: Manim API
+  version: 1.0.0
+paths:
+  /:
+    get:
+      summary: Returns a greeting
+      responses:
+        '200':
+          description: A greeting to the user
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  hello:
+                    type: string
+                    description: A greeting to the user.
